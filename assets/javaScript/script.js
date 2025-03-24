@@ -47,7 +47,6 @@ addEventOnElem(navbarLinks, "click", closeNavbar);
 let loader = document.getElementById("loader");
 window.addEventListener("load",function(){
     setTimeout(function() {
-        navbar.style.display = "none"
         loader.style.display = "none";
         
     }, 1000);
