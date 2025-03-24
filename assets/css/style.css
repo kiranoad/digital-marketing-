@@ -173,6 +173,38 @@ body {
   #REUSED STYLE
 \*-----------------------------------*/
 
+
+/* loader css */
+
+.container1{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --platinum: hsl(0, 0%, 90%);
+  background-color: var();
+}
+.spinner{
+  height:80px;
+  width: 80px;
+  border: 7px solid  #0026ff92;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spinner 0.7s linear infinite;
+}
+
+@keyframes spinner {
+  from{
+
+  }
+  to{
+      transform: rotate(360deg);
+  }
+  
+}
+
+
 .container { padding-inline: 15px; }
 
 .btn {
