@@ -1,14 +1,7 @@
 'use strict';
 
 
-// loader function 
 
-let loader = document.getElementById("loader");
-window.addEventListener("load",function(){
-    setTimeout(function() {
-        loader.style.display = "none";
-    }, 1000);
-})
 
 
 /**
@@ -49,6 +42,16 @@ const closeNavbar = function () {
 
 addEventOnElem(navbarLinks, "click", closeNavbar);
 
+// loader function 
+
+let loader = document.getElementById("loader");
+window.addEventListener("load",function(){
+    setTimeout(function() {
+        navbar.style.display = "none"
+        loader.style.display = "none";
+        
+    }, 1000);
+})
 
 
 /**
